@@ -7,6 +7,8 @@
 #    distribution, for details about the copyright.
 #
 
+## .. note:: In order to use this module, run `nimble install htmlparser`.
+##
 ## **NOTE**: The behaviour might change in future versions as it is not
 ## clear what "*wild* HTML the real world uses" really implies.
 ##
