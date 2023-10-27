@@ -31,7 +31,6 @@
 ## ending with the extension `.rst` and convert them to `.html`.
 ##
 ##   ```Nim test
-##   import pkg/htmlparser
 ##   import std/xmltree  # To use '$' for XmlNode
 ##   import std/strtabs  # To access XmlAttributes
 ##   import std/os       # To use splitFile
