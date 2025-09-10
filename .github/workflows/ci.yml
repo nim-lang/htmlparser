@@ -13,24 +13,20 @@ jobs:
         target:
           - os: linux
             cpu: amd64
-          - os: linux
-            cpu: i386
           - os: macos
-            cpu: amd64
-          - os: windows
-            cpu: i386
+            cpu: arm64
           - os: windows
             cpu: amd64
         include:
           - target:
               os: linux
-            builder: ubuntu-20.04
+            builder: ubuntu-latest
           - target:
               os: macos
-            builder: macos-11
+            builder: macos-latest
           - target:
               os: windows
-            builder: windows-2019
+            builder: windows-latest
     name: '${{ matrix.target.os }}-${{ matrix.target.cpu }} (${{ matrix.branch }})'
     runs-on: ${{ matrix.builder }}
 
@@ -127,3 +123,4 @@ jobs:
           target_branch: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
