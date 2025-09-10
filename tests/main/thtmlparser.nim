@@ -8,7 +8,7 @@ https://example.com/test?format=jpg&name=orig##text
 https://example.com/test?format=jpg##text
 '''
 """
-import htmlparser
+import ../../src/htmlparser
 import std/[xmltree, strutils]
 from std/streams import newStringStream
 import std/assertions
