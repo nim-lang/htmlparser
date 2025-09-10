@@ -38,7 +38,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
       - name: Checkout htmlparser
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: htmlparser
 
