@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        branch: [devel]
+        branch: [master]
         target:
           - os: linux
             cpu: amd64
@@ -123,4 +123,5 @@ jobs:
           target_branch: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
