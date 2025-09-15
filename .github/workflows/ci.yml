@@ -36,7 +36,7 @@ jobs:
         working-directory: htmlparser
 
     steps:
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
       - name: Checkout htmlparser
         uses: actions/checkout@v5
         with:
