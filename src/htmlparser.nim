@@ -70,10 +70,10 @@ type
     tagAudio,      ## the HTML `audio` element
     tagB,          ## the HTML `b` element
     tagBase,       ## the HTML `base` element
-    tagBdi,        ## the HTML `bdi` element
-    tagBdo,        ## the deprecated HTML `dbo` element
     tagBasefont,   ## the deprecated HTML `basefont` element
-    tagBig,        ## the HTML `big` element
+    tagBdi,        ## the HTML `bdi` element
+    tagBdo,        ## the HTML `bdo` element
+    tagBig,        ## the deprecated HTML `big` element
     tagBlockquote, ## the HTML `blockquote` element
     tagBody,       ## the HTML `body` element
     tagBr,         ## the HTML `br` element
@@ -86,6 +86,7 @@ type
     tagCol,        ## the HTML `col` element
     tagColgroup,   ## the HTML `colgroup` element
     tagCommand,    ## the HTML `command` element
+    tagData,       ## the HTML `data` element
     tagDatalist,   ## the HTML `datalist` element
     tagDd,         ## the HTML `dd` element
     tagDel,        ## the HTML `del` element
@@ -129,6 +130,7 @@ type
     tagLegend,     ## the HTML `legend` element
     tagLi,         ## the HTML `li` element
     tagLink,       ## the HTML `link` element
+    tagMain,       ## the HTML `main` element
     tagMap,        ## the HTML `map` element
     tagMark,       ## the HTML `mark` element
     tagMenu,       ## the deprecated HTML `menu` element
@@ -145,6 +147,7 @@ type
     tagOutput,     ## the HTML `output` element
     tagP,          ## the HTML `p` element
     tagParam,      ## the HTML `param` element
+    tagPicture,    ## the HTML `picture` element
     tagPre,        ## the HTML `pre` element
     tagProgress,   ## the HTML `progress` element
     tagQ,          ## the HTML `q` element
@@ -154,8 +157,10 @@ type
     tagS,          ## the deprecated HTML `s` element
     tagSamp,       ## the HTML `samp` element
     tagScript,     ## the HTML `script` element
+    tagSearch,     ## the HTML `search` element
     tagSection,    ## the HTML `section` element
     tagSelect,     ## the HTML `select` element
+    tagSlot,       ## the HTML `slot` element
     tagSmall,      ## the HTML `small` element
     tagSource,     ## the HTML `source` element
     tagSpan,       ## the HTML `span` element
@@ -168,6 +173,7 @@ type
     tagTable,      ## the HTML `table` element
     tagTbody,      ## the HTML `tbody` element
     tagTd,         ## the HTML `td` element
+    tagTemplate,   ## the HTML `template` element
     tagTextarea,   ## the HTML `textarea` element
     tagTfoot,      ## the HTML `tfoot` element
     tagTh,         ## the HTML `th` element
@@ -190,36 +196,43 @@ const
     "b", "base", "basefont", "bdi", "bdo", "big", "blockquote", "body",
     "br", "button", "canvas", "caption", "center", "cite", "code",
     "col", "colgroup", "command",
-    "datalist", "dd", "del", "details", "dfn", "dialog", "div",
+    "data", "datalist", "dd", "del", "details", "dfn", "dialog", "div",
     "dir", "dl", "dt", "em", "embed", "fieldset",
     "figcaption", "figure", "font", "footer",
     "form", "frame", "frameset", "h1", "h2", "h3",
     "h4", "h5", "h6", "head", "header", "hgroup", "html", "hr",
     "i", "iframe", "img", "input", "ins", "isindex",
-    "kbd", "keygen", "label", "legend", "li", "link", "map", "mark",
+    "kbd", "keygen", "label", "legend", "li", "link", "main", "map", "mark",
     "menu", "meta", "meter", "nav", "nobr", "noframes", "noscript",
     "object", "ol",
-    "optgroup", "option", "output", "p", "param", "pre", "progress", "q",
-    "rp", "rt", "ruby", "s", "samp", "script", "section", "select", "small",
+    "optgroup", "option", "output", "p", "param", "picture", "pre",
+    "progress", "q",
+    "rp", "rt", "ruby", "s", "samp", "script", "search", "section",
+    "select", "slot", "small",
     "source", "span", "strike", "strong", "style",
     "sub", "summary", "sup", "table",
-    "tbody", "td", "textarea", "tfoot", "th", "thead", "time",
+    "tbody", "td", "template", "textarea", "tfoot", "th", "thead", "time",
     "title", "tr", "track", "tt", "u", "ul", "var", "video", "wbr"]
   InlineTags* = {tagA, tagAbbr, tagAcronym, tagApplet, tagB, tagBasefont,
-    tagBdo, tagBig, tagBr, tagButton, tagCite, tagCode, tagDel, tagDfn,
-    tagEm, tagFont, tagI, tagImg, tagIns, tagInput, tagIframe, tagKbd,
-    tagLabel, tagMap, tagObject, tagQ, tagSamp, tagScript, tagSelect,
-    tagSmall, tagSpan, tagStrong, tagSub, tagSup, tagTextarea, tagTt,
-    tagVar, tagApplet, tagBasefont, tagFont, tagIframe, tagU, tagS,
-    tagStrike, tagWbr}
-  BlockTags* = {tagAddress, tagBlockquote, tagCenter, tagDel, tagDir, tagDiv,
-    tagDl, tagFieldset, tagForm, tagH1, tagH2, tagH3, tagH4,
-    tagH5, tagH6, tagHr, tagIns, tagIsindex, tagMenu, tagNoframes, tagNoscript,
-    tagOl, tagP, tagPre, tagTable, tagUl, tagCenter, tagDir, tagIsindex,
-    tagMenu, tagNoframes}
-  SingleTags* = {tagArea, tagBase, tagBasefont,
-    tagBr, tagCol, tagFrame, tagHr, tagImg, tagIsindex,
-    tagLink, tagMeta, tagParam, tagWbr, tagSource}
+    tagBdo, tagBig, tagBr, tagButton, tagCite, tagCode, tagData, tagDel,
+    tagDfn, tagEm, tagFont, tagI, tagImg, tagIns, tagInput, tagIframe,
+    tagKbd, tagLabel, tagMap, tagObject, tagOutput, tagPicture, tagQ,
+    tagS, tagSamp, tagScript, tagSelect, tagSlot, tagSmall, tagSpan,
+    tagStrike, tagStrong, tagSub, tagSup, tagTextarea, tagTt, tagU, tagVar,
+    tagWbr}
+  BlockTags* = {tagAddress, tagArticle, tagAside, tagBlockquote, tagCanvas,
+    tagCenter, tagDd, tagDel, tagDir, tagDiv, tagDl, tagDt, tagFieldset,
+    tagFigcaption, tagFigure, tagFooter, tagForm, tagH1, tagH2, tagH3,
+    tagH4, tagH5, tagH6, tagHeader, tagHr, tagIns, tagIsindex, tagLi,
+    tagMain, tagMenu, tagNav, tagNoframes, tagNoscript, tagOl, tagP,
+    tagPre, tagSearch, tagSection, tagTable, tagTfoot, tagUl, tagVideo}
+  SingleTags* = {tagArea, tagBase, tagBasefont, tagBr, tagCol, tagCommand,
+    tagEmbed, tagFrame, tagHr, tagImg, tagInput, tagIsindex, tagKeygen,
+    tagLink, tagMeta, tagParam, tagSource, tagTrack, tagWbr}
+
+static:
+  doAssert tagToStr.len == ord(high(HtmlTag)),
+    "tagToStr must have one entry per tag"
 
 proc allLower(s: string): bool =
   for c in s:
@@ -255,6 +268,7 @@ proc toHtmlTag(s: string): HtmlTag =
   of "col": tagCol
   of "colgroup": tagColgroup
   of "command": tagCommand
+  of "data": tagData
   of "datalist": tagDatalist
   of "dd": tagDd
   of "del": tagDel
@@ -298,6 +312,7 @@ proc toHtmlTag(s: string): HtmlTag =
   of "legend": tagLegend
   of "li": tagLi
   of "link": tagLink
+  of "main": tagMain
   of "map": tagMap
   of "mark": tagMark
   of "menu": tagMenu
@@ -314,6 +329,7 @@ proc toHtmlTag(s: string): HtmlTag =
   of "output": tagOutput
   of "p": tagP
   of "param": tagParam
+  of "picture": tagPicture
   of "pre": tagPre
   of "progress": tagProgress
   of "q": tagQ
@@ -323,8 +339,10 @@ proc toHtmlTag(s: string): HtmlTag =
   of "s": tagS
   of "samp": tagSamp
   of "script": tagScript
+  of "search": tagSearch
   of "section": tagSection
   of "select": tagSelect
+  of "slot": tagSlot
   of "small": tagSmall
   of "source": tagSource
   of "span": tagSpan
@@ -337,6 +355,7 @@ proc toHtmlTag(s: string): HtmlTag =
   of "table": tagTable
   of "tbody": tagTbody
   of "td": tagTd
+  of "template": tagTemplate
   of "textarea": tagTextarea
   of "tfoot": tagTfoot
   of "th": tagTh
