@@ -13,6 +13,22 @@ import std/[xmltree, strutils]
 from std/streams import newStringStream
 import std/assertions
 
+block tagRoundTrip:
+  for tag in HtmlTag:
+    if tag != tagUnknown:
+      doAssert htmlTag(tagToStr[ord(tag) - 1]) == tag, $tag
+
+block voidElements21609:
+  # <input> and other void elements must not become containers.
+  let tree = parseHtml("<span class=\"1\">a<input></span>" &
+                       "<span class=\"2\">b</span>" &
+                       "<span class=\"3\">c</span>")
+  let spans = tree.findAll("span")
+  doAssert spans.len == 3
+  let inputs = tree.findAll("input")
+  doAssert inputs.len == 1
+  doAssert inputs[0].len == 0
+
 block t2813:
   const
     html = """
