@@ -53,7 +53,7 @@ import ./htmlparser/entitylookup
 export entityToRune, entityToUtf8
 
 when defined(nimPreviewSlimSystem):
-  import std/syncio
+  import std/[syncio, assertions]
 
 type
   HtmlTag* = enum  ## list of all supported HTML tags; order will always be
