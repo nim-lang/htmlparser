@@ -3,7 +3,7 @@ discard """
   targets: "c js"
   output: "ok"
 """
-import std/[strutils, streams, unicode, xmltree]
+import std/[strutils, streams, unicode, xmltree, assertions]
 import ../../src/htmlparser
 import ../../src/htmlparser/entitydata {.all.}
 

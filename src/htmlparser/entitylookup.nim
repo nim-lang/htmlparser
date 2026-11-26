@@ -38,6 +38,9 @@
 import std/[macros, parseutils, tables, unicode]
 import ./entitydata {.all.}
 
+when defined(nimPreviewSlimSystem):
+  import std/assertions
+
 const
   EntitySlotCount = 4096
     ## Power of two; keeps the load factor at 0.50.
