@@ -1,0 +1,9 @@
+nimTitle	entitylookup	src/htmlparser/entitylookup.html	module src/htmlparser/entitylookup		0
+nim	entityToRune	src/htmlparser/entitylookup.html#entityToRune,openArray[char]	proc entityToRune(entity: openArray[char]): Rune		200
+nim	entityToRune	src/htmlparser/entitylookup.html#entityToRune,string	proc entityToRune(entity: string): Rune		228
+nim	entityToUtf8	src/htmlparser/entitylookup.html#entityToUtf8,openArray[char]	proc entityToUtf8(entity: openArray[char]): string		245
+nim	entityToUtf8	src/htmlparser/entitylookup.html#entityToUtf8,string	proc entityToUtf8(entity: string): string		254
+nimgrp	entitytoutf8	src/htmlparser/entitylookup.html#entityToUtf8-procs-all	proc		245
+nimgrp	entitytorune	src/htmlparser/entitylookup.html#entityToRune-procs-all	proc		200
+heading	Data and lookup	src/htmlparser/entitylookup.html#data-and-lookup	 Data and lookup		0
+heading	Numeric forms	src/htmlparser/entitylookup.html#numeric-forms	 Numeric forms		0

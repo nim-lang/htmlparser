@@ -1,0 +1,149 @@
+nimTitle	htmlparser	src/htmlparser.html	module src/htmlparser		0
+nim	tagUnknown	src/htmlparser.html#tagUnknown	HtmlTag.tagUnknown		59
+nim	tagA	src/htmlparser.html#tagA	HtmlTag.tagA		59
+nim	tagAbbr	src/htmlparser.html#tagAbbr	HtmlTag.tagAbbr		59
+nim	tagAcronym	src/htmlparser.html#tagAcronym	HtmlTag.tagAcronym		59
+nim	tagAddress	src/htmlparser.html#tagAddress	HtmlTag.tagAddress		59
+nim	tagApplet	src/htmlparser.html#tagApplet	HtmlTag.tagApplet		59
+nim	tagArea	src/htmlparser.html#tagArea	HtmlTag.tagArea		59
+nim	tagArticle	src/htmlparser.html#tagArticle	HtmlTag.tagArticle		59
+nim	tagAside	src/htmlparser.html#tagAside	HtmlTag.tagAside		59
+nim	tagAudio	src/htmlparser.html#tagAudio	HtmlTag.tagAudio		59
+nim	tagB	src/htmlparser.html#tagB	HtmlTag.tagB		59
+nim	tagBase	src/htmlparser.html#tagBase	HtmlTag.tagBase		59
+nim	tagBasefont	src/htmlparser.html#tagBasefont	HtmlTag.tagBasefont		59
+nim	tagBdi	src/htmlparser.html#tagBdi	HtmlTag.tagBdi		59
+nim	tagBdo	src/htmlparser.html#tagBdo	HtmlTag.tagBdo		59
+nim	tagBig	src/htmlparser.html#tagBig	HtmlTag.tagBig		59
+nim	tagBlockquote	src/htmlparser.html#tagBlockquote	HtmlTag.tagBlockquote		59
+nim	tagBody	src/htmlparser.html#tagBody	HtmlTag.tagBody		59
+nim	tagBr	src/htmlparser.html#tagBr	HtmlTag.tagBr		59
+nim	tagButton	src/htmlparser.html#tagButton	HtmlTag.tagButton		59
+nim	tagCanvas	src/htmlparser.html#tagCanvas	HtmlTag.tagCanvas		59
+nim	tagCaption	src/htmlparser.html#tagCaption	HtmlTag.tagCaption		59
+nim	tagCenter	src/htmlparser.html#tagCenter	HtmlTag.tagCenter		59
+nim	tagCite	src/htmlparser.html#tagCite	HtmlTag.tagCite		59
+nim	tagCode	src/htmlparser.html#tagCode	HtmlTag.tagCode		59
+nim	tagCol	src/htmlparser.html#tagCol	HtmlTag.tagCol		59
+nim	tagColgroup	src/htmlparser.html#tagColgroup	HtmlTag.tagColgroup		59
+nim	tagCommand	src/htmlparser.html#tagCommand	HtmlTag.tagCommand		59
+nim	tagData	src/htmlparser.html#tagData	HtmlTag.tagData		59
+nim	tagDatalist	src/htmlparser.html#tagDatalist	HtmlTag.tagDatalist		59
+nim	tagDd	src/htmlparser.html#tagDd	HtmlTag.tagDd		59
+nim	tagDel	src/htmlparser.html#tagDel	HtmlTag.tagDel		59
+nim	tagDetails	src/htmlparser.html#tagDetails	HtmlTag.tagDetails		59
+nim	tagDfn	src/htmlparser.html#tagDfn	HtmlTag.tagDfn		59
+nim	tagDialog	src/htmlparser.html#tagDialog	HtmlTag.tagDialog		59
+nim	tagDiv	src/htmlparser.html#tagDiv	HtmlTag.tagDiv		59
+nim	tagDir	src/htmlparser.html#tagDir	HtmlTag.tagDir		59
+nim	tagDl	src/htmlparser.html#tagDl	HtmlTag.tagDl		59
+nim	tagDt	src/htmlparser.html#tagDt	HtmlTag.tagDt		59
+nim	tagEm	src/htmlparser.html#tagEm	HtmlTag.tagEm		59
+nim	tagEmbed	src/htmlparser.html#tagEmbed	HtmlTag.tagEmbed		59
+nim	tagFieldset	src/htmlparser.html#tagFieldset	HtmlTag.tagFieldset		59
+nim	tagFigcaption	src/htmlparser.html#tagFigcaption	HtmlTag.tagFigcaption		59
+nim	tagFigure	src/htmlparser.html#tagFigure	HtmlTag.tagFigure		59
+nim	tagFont	src/htmlparser.html#tagFont	HtmlTag.tagFont		59
+nim	tagFooter	src/htmlparser.html#tagFooter	HtmlTag.tagFooter		59
+nim	tagForm	src/htmlparser.html#tagForm	HtmlTag.tagForm		59
+nim	tagFrame	src/htmlparser.html#tagFrame	HtmlTag.tagFrame		59
+nim	tagFrameset	src/htmlparser.html#tagFrameset	HtmlTag.tagFrameset		59
+nim	tagH1	src/htmlparser.html#tagH1	HtmlTag.tagH1		59
+nim	tagH2	src/htmlparser.html#tagH2	HtmlTag.tagH2		59
+nim	tagH3	src/htmlparser.html#tagH3	HtmlTag.tagH3		59
+nim	tagH4	src/htmlparser.html#tagH4	HtmlTag.tagH4		59
+nim	tagH5	src/htmlparser.html#tagH5	HtmlTag.tagH5		59
+nim	tagH6	src/htmlparser.html#tagH6	HtmlTag.tagH6		59
+nim	tagHead	src/htmlparser.html#tagHead	HtmlTag.tagHead		59
+nim	tagHeader	src/htmlparser.html#tagHeader	HtmlTag.tagHeader		59
+nim	tagHgroup	src/htmlparser.html#tagHgroup	HtmlTag.tagHgroup		59
+nim	tagHtml	src/htmlparser.html#tagHtml	HtmlTag.tagHtml		59
+nim	tagHr	src/htmlparser.html#tagHr	HtmlTag.tagHr		59
+nim	tagI	src/htmlparser.html#tagI	HtmlTag.tagI		59
+nim	tagIframe	src/htmlparser.html#tagIframe	HtmlTag.tagIframe		59
+nim	tagImg	src/htmlparser.html#tagImg	HtmlTag.tagImg		59
+nim	tagInput	src/htmlparser.html#tagInput	HtmlTag.tagInput		59
+nim	tagIns	src/htmlparser.html#tagIns	HtmlTag.tagIns		59
+nim	tagIsindex	src/htmlparser.html#tagIsindex	HtmlTag.tagIsindex		59
+nim	tagKbd	src/htmlparser.html#tagKbd	HtmlTag.tagKbd		59
+nim	tagKeygen	src/htmlparser.html#tagKeygen	HtmlTag.tagKeygen		59
+nim	tagLabel	src/htmlparser.html#tagLabel	HtmlTag.tagLabel		59
+nim	tagLegend	src/htmlparser.html#tagLegend	HtmlTag.tagLegend		59
+nim	tagLi	src/htmlparser.html#tagLi	HtmlTag.tagLi		59
+nim	tagLink	src/htmlparser.html#tagLink	HtmlTag.tagLink		59
+nim	tagMain	src/htmlparser.html#tagMain	HtmlTag.tagMain		59
+nim	tagMap	src/htmlparser.html#tagMap	HtmlTag.tagMap		59
+nim	tagMark	src/htmlparser.html#tagMark	HtmlTag.tagMark		59
+nim	tagMenu	src/htmlparser.html#tagMenu	HtmlTag.tagMenu		59
+nim	tagMeta	src/htmlparser.html#tagMeta	HtmlTag.tagMeta		59
+nim	tagMeter	src/htmlparser.html#tagMeter	HtmlTag.tagMeter		59
+nim	tagNav	src/htmlparser.html#tagNav	HtmlTag.tagNav		59
+nim	tagNobr	src/htmlparser.html#tagNobr	HtmlTag.tagNobr		59
+nim	tagNoframes	src/htmlparser.html#tagNoframes	HtmlTag.tagNoframes		59
+nim	tagNoscript	src/htmlparser.html#tagNoscript	HtmlTag.tagNoscript		59
+nim	tagObject	src/htmlparser.html#tagObject	HtmlTag.tagObject		59
+nim	tagOl	src/htmlparser.html#tagOl	HtmlTag.tagOl		59
+nim	tagOptgroup	src/htmlparser.html#tagOptgroup	HtmlTag.tagOptgroup		59
+nim	tagOption	src/htmlparser.html#tagOption	HtmlTag.tagOption		59
+nim	tagOutput	src/htmlparser.html#tagOutput	HtmlTag.tagOutput		59
+nim	tagP	src/htmlparser.html#tagP	HtmlTag.tagP		59
+nim	tagParam	src/htmlparser.html#tagParam	HtmlTag.tagParam		59
+nim	tagPicture	src/htmlparser.html#tagPicture	HtmlTag.tagPicture		59
+nim	tagPre	src/htmlparser.html#tagPre	HtmlTag.tagPre		59
+nim	tagProgress	src/htmlparser.html#tagProgress	HtmlTag.tagProgress		59
+nim	tagQ	src/htmlparser.html#tagQ	HtmlTag.tagQ		59
+nim	tagRp	src/htmlparser.html#tagRp	HtmlTag.tagRp		59
+nim	tagRt	src/htmlparser.html#tagRt	HtmlTag.tagRt		59
+nim	tagRuby	src/htmlparser.html#tagRuby	HtmlTag.tagRuby		59
+nim	tagS	src/htmlparser.html#tagS	HtmlTag.tagS		59
+nim	tagSamp	src/htmlparser.html#tagSamp	HtmlTag.tagSamp		59
+nim	tagScript	src/htmlparser.html#tagScript	HtmlTag.tagScript		59
+nim	tagSearch	src/htmlparser.html#tagSearch	HtmlTag.tagSearch		59
+nim	tagSection	src/htmlparser.html#tagSection	HtmlTag.tagSection		59
+nim	tagSelect	src/htmlparser.html#tagSelect	HtmlTag.tagSelect		59
+nim	tagSlot	src/htmlparser.html#tagSlot	HtmlTag.tagSlot		59
+nim	tagSmall	src/htmlparser.html#tagSmall	HtmlTag.tagSmall		59
+nim	tagSource	src/htmlparser.html#tagSource	HtmlTag.tagSource		59
+nim	tagSpan	src/htmlparser.html#tagSpan	HtmlTag.tagSpan		59
+nim	tagStrike	src/htmlparser.html#tagStrike	HtmlTag.tagStrike		59
+nim	tagStrong	src/htmlparser.html#tagStrong	HtmlTag.tagStrong		59
+nim	tagStyle	src/htmlparser.html#tagStyle	HtmlTag.tagStyle		59
+nim	tagSub	src/htmlparser.html#tagSub	HtmlTag.tagSub		59
+nim	tagSummary	src/htmlparser.html#tagSummary	HtmlTag.tagSummary		59
+nim	tagSup	src/htmlparser.html#tagSup	HtmlTag.tagSup		59
+nim	tagTable	src/htmlparser.html#tagTable	HtmlTag.tagTable		59
+nim	tagTbody	src/htmlparser.html#tagTbody	HtmlTag.tagTbody		59
+nim	tagTd	src/htmlparser.html#tagTd	HtmlTag.tagTd		59
+nim	tagTemplate	src/htmlparser.html#tagTemplate	HtmlTag.tagTemplate		59
+nim	tagTextarea	src/htmlparser.html#tagTextarea	HtmlTag.tagTextarea		59
+nim	tagTfoot	src/htmlparser.html#tagTfoot	HtmlTag.tagTfoot		59
+nim	tagTh	src/htmlparser.html#tagTh	HtmlTag.tagTh		59
+nim	tagThead	src/htmlparser.html#tagThead	HtmlTag.tagThead		59
+nim	tagTime	src/htmlparser.html#tagTime	HtmlTag.tagTime		59
+nim	tagTitle	src/htmlparser.html#tagTitle	HtmlTag.tagTitle		59
+nim	tagTr	src/htmlparser.html#tagTr	HtmlTag.tagTr		59
+nim	tagTrack	src/htmlparser.html#tagTrack	HtmlTag.tagTrack		59
+nim	tagTt	src/htmlparser.html#tagTt	HtmlTag.tagTt		59
+nim	tagU	src/htmlparser.html#tagU	HtmlTag.tagU		59
+nim	tagUl	src/htmlparser.html#tagUl	HtmlTag.tagUl		59
+nim	tagVar	src/htmlparser.html#tagVar	HtmlTag.tagVar		59
+nim	tagVideo	src/htmlparser.html#tagVideo	HtmlTag.tagVideo		59
+nim	tagWbr	src/htmlparser.html#tagWbr	HtmlTag.tagWbr		59
+nim	HtmlTag	src/htmlparser.html#HtmlTag	enum HtmlTag		59
+nim	tagToStr	src/htmlparser.html#tagToStr	const tagToStr		193
+nim	InlineTags	src/htmlparser.html#InlineTags	const InlineTags		216
+nim	BlockTags	src/htmlparser.html#BlockTags	const BlockTags		223
+nim	SingleTags	src/htmlparser.html#SingleTags	const SingleTags		229
+nim	htmlTag	src/htmlparser.html#htmlTag,XmlNode	proc htmlTag(n: XmlNode): HtmlTag		376
+nim	htmlTag	src/htmlparser.html#htmlTag,string	proc htmlTag(s: string): HtmlTag		382
+nim	runeToEntity	src/htmlparser.html#runeToEntity,Rune	proc runeToEntity(rune: Rune): string		388
+nim	htmlMaxDepth	src/htmlparser.html#htmlMaxDepth	const htmlMaxDepth		403
+nim	parseHtml	src/htmlparser.html#parseHtml,Stream,string,seq[string]	proc parseHtml(s: Stream; filename: string; errors: var seq[string]): XmlNode		538
+nim	parseHtml	src/htmlparser.html#parseHtml,Stream	proc parseHtml(s: Stream): XmlNode		563
+nim	parseHtml	src/htmlparser.html#parseHtml,string	proc parseHtml(html: string): XmlNode		569
+nim	loadHtml	src/htmlparser.html#loadHtml,string,seq[string]	proc loadHtml(path: string; errors: var seq[string]): XmlNode		574
+nim	loadHtml	src/htmlparser.html#loadHtml,string	proc loadHtml(path: string): XmlNode		582
+nimgrp	htmltag	src/htmlparser.html#htmlTag-procs-all	proc		376
+nimgrp	loadhtml	src/htmlparser.html#loadHtml-procs-all	proc		574
+nimgrp	parsehtml	src/htmlparser.html#parseHtml-procs-all	proc		538
+heading	Example: Transforming hyperlinks	src/htmlparser.html#examplecolon-transforming-hyperlinks	 Example: Transforming hyperlinks		0
